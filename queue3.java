@@ -75,7 +75,7 @@ class queue3 {
         queue3 obj = new queue3(s);
         while (true) {
             System.out.println("\n==== Main Menu ====");
-            System.out.println("1. Inset Char to Queue");
+            System.out.println("1. Insert Char to Queue");
             System.out.println("2. Delete Char from Queue ");
             System.out.println("3. Check size of Queue");
             System.out.println("4. Display all elements");
@@ -88,7 +88,7 @@ class queue3 {
             }
             switch (choice) {
                 case 1:
-                    System.out.println("Enter a char to push into the stack");
+                    System.out.println("Enter a char to nqueue into the queue");
                     String input = sc.next();
                     char ch = input.charAt(0);
                     obj.nQueue(ch);
