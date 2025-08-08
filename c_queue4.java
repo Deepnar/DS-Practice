@@ -100,7 +100,7 @@ class c_queue4 {
         c_queue4 obj = new c_queue4(s);
         while (true) {
             System.out.println("\n==== Main Menu ====");
-            System.out.println("1. Inset Char to Queue");
+            System.out.println("1. Insert Char to Queue");
             System.out.println("2. Delete Char from Queue ");
             System.out.println("3. Check size of Queue");
             System.out.println("4. Display all elements");
